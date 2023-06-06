@@ -1,0 +1,206 @@
+body {
+  font-family: "Montserrat";
+}
+
+.navbar {
+  background-color: #2c3e50;
+}
+
+.nav-item {
+  margin-right: 30px;
+  font-weight: 200;
+}
+
+.nav-item.active a {
+  color: #f9b234 !important;
+  font-weight: 600;
+}
+
+.nav-link span {
+  color: #f9b234;
+  font-weight: 600;
+}
+
+/* carousel */
+.carousel {
+  height: 600px;
+  background-image: url("../img/background/Group1.png");
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  position: relative;
+}
+
+.carousel h1 {
+  margin-top: 100px;
+  font-family: "Lora";
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.carousel p {
+  margin-top: 35px;
+}
+
+.carousel img {
+  margin-top: 100px;
+}
+
+.carousel::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0)
+  );
+  position: absolute;
+  bottom: 0;
+}
+
+.carousel .btn-warning {
+  background-color: #f9b234;
+  border: none;
+}
+
+/* features */
+
+.features h3,
+.designer h3,
+.smilar h3 {
+  font-family: "Lora";
+  color: #005171;
+  font-weight: 600;
+}
+
+.features p,
+.designer p,
+footer p,
+.smilar p {
+  font-weight: 200;
+  color: #b1b1b1;
+}
+
+.figure h5 {
+  color: #171717;
+}
+
+.figure-img {
+  position: relative;
+}
+
+.figure-img a {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 8px;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.figure-img:hover a {
+  opacity: 1;
+}
+
+.footer {
+  background-image: url("../img/background/Group1.png");
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+}
+
+.footer a,
+.footer p {
+  color: white;
+}
+
+/* breadcrumb */
+
+.breadcrumb {
+  margin-top: 90px;
+}
+
+.product-thumbnail-container {
+  background-color: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 360px;
+  padding: 8px;
+  margin: auto;
+  transform: translateY(-50px);
+}
+
+.product-thumbnail-container a:hover {
+  text-decoration: none;
+}
+
+/* btn-product */
+.btn-product {
+  margin: 30px 0;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #b1b1b1;
+}
+
+.btn-product .btn {
+  display: block;
+  margin: 15px 0;
+}
+
+.design-by {
+}
+
+.design-by h5 {
+  font-size: 16px;
+  font-weight: 200;
+  color: #b7b7b7;
+  margin-top: 50px;
+}
+
+.design-by h4 {
+  font-size: 18px;
+  color: #171717;
+}
+
+.design-by p {
+  font-size: 14px;
+  font-weight: 200;
+}
+
+/* description */
+.description {
+  min-height: 360px;
+  padding: 40px;
+}
+
+.description .tab-content {
+  background-color: white;
+  padding: 30px;
+  border-top: 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+}
+
+.description .tab-content p {
+  font-weight: 200;
+  color: #868686;
+  line-height: 28px;
+  font-size: 16px;
+}
+
+.description .tab-content .reviews h5 {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.description .tab-content .reviews p {
+  font-weight: 200;
+  color: #868686;
+  font-size: 14px !important;
+}
+
+.smilar {
+  margin-top: 100px;
+}
